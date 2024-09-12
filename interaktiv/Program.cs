@@ -2,63 +2,54 @@
 
 Console.WriteLine("vart vill du hälst vara i skogen eller i stor stan.");
 string name = Console.ReadLine();
+string Stan = Console.ReadLine();
 
-if (name.ToLower() == "skogen")
+ if (name.ToLower() == "skogen")
 {
   Console.Clear();
   Console.WriteLine ("Mysss")  ; 
   Console.ReadLine();
 
-  Console.WriteLine("Du har hamnat i en mysig skog, MEN du har hittat en person som har fått en hjärtattack, han ser ut som en rik person. Du får välja om du vill rädda den rika människan eller att råna honom.");
 
-String människa = Console.ReadLine();
+   if (name.ToLower() == "skogen")
 
-if (människa.ToLower() == "Råna")
+Console.WriteLine("Du har hamnat i en mysig skog, MEN du har hittat en person som har fått en hjärtattack, han ser ut som en rik person. Du får välja om du vill rädda den rika människan eller att råna honom.");
+String hjälpa = Console.ReadLine();
 
+
+if (hjälpa.ToLower() == "råna")
 Console.Clear();
-Console.WriteLine ("Personen överlevde och kommer hemsöka dig när du dushar");
+Console.WriteLine("Han kommer för hämnd");
 Console.ReadLine();
 
-Console.WriteLine("Du hamnade i stor stan. Du hitter en guld taka på marken. Tar du den och går till polisen eller tar du den för dig själv?, skriv själv eller polis");
-string själv = Console.ReadLine ();
+}
 
-if (name.ToLower () == "Sparka")
-
-  Console.Clear();
-  Console.WriteLine ("Aina kommer och tar dig, Ingen kommer undan, MUHAHAHAH")  ; 
-  Console.ReadLine();
+Console.Clear();
+Console.WriteLine("Du står vid ett övergångställe ska du gå eller stanna?");
+string gå = Console.ReadLine();
 
 
+if (gå.ToLower() == "gå")
 
-Console.WriteLine("");
+{
+Console.Clear();
+Console.WriteLine("Du blir påkörd");
+Console.ReadLine();
 
 
-
-
+Console.Clear();
+Console.WriteLine("försök igen");
+Console.ReadLine();
 
 }
 
 
 else
+
 {
-
-Console.WriteLine("Ett ställe med mycket folk");
+Console.Clear();
+Console.WriteLine("du träffar batman");
 Console.ReadLine();
-
-Console.WriteLine("Du håller på att bli rånad.Du får chansen att sparka rånaren. vad väljer du sparka eller inte ");
-Console.ReadLine();
-
-Console.WriteLine("Du försökte");
-Console.ReadLine();
-
-
-
-
- }
-
-
-
-
-
+}
 
 
