@@ -12,7 +12,7 @@ string Stan = Console.ReadLine();
 
 
    if (name.ToLower() == "skogen")
-
+   
 Console.WriteLine("Du har hamnat i en mysig skog, MEN du har hittat en person som har fått en hjärtattack, han ser ut som en rik person. Du får välja om du vill rädda den rika människan eller att råna honom.");
 String hjälpa = Console.ReadLine();
 
